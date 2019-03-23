@@ -5,7 +5,7 @@ def reformat_languages(languages)
   hash = {}
   languages.each do |style, description|
     description.each do |l, t|
-      if hash.has_key?()
+      if hash.has_key?(l)
         
       end
     end
