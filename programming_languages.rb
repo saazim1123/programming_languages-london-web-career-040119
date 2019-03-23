@@ -2,17 +2,5 @@
 
 def reformat_languages(languages)
   # your code here
-  hash = {}
-  languages.each do |type, description|
-    description.each do |language, type|
-      if hash.has_key?(language)
-        hash[language][:type] << type
-        
-      else
-        hash[language] = type
-        hash[language][:type] = [type]
-      end
-    end
-  end
-  hash
+  
 end
