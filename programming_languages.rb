@@ -7,6 +7,9 @@ def reformat_languages(languages)
     description.each do |l, t|
       if hash.has_key?(l)
         hash[l][:style] << style
+        
+      else 
+        
       end
     end
   end
