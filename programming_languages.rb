@@ -10,6 +10,7 @@ def reformat_languages(languages)
         
       else 
         hash[l] = t 
+        
       end
     end
   end
