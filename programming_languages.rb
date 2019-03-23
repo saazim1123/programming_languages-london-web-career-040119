@@ -10,7 +10,7 @@ def reformat_languages(languages)
         
       else 
         hash[l] = t 
-        hash
+        hash[l][:style]
       end
     end
   end
